@@ -1,0 +1,58 @@
+
+.user-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-detail-container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: rgb(225, 31, 31);
+  }
+  
+  .user-detail-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-btn {
+    background-color: #28a745;
+  }
+  
+  .update-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .user-actions {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
